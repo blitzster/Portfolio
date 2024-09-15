@@ -1,6 +1,7 @@
 import profilePic from '../assets/Akshay.JPG'
 import { HERO_CONTENT } from '../constants'
 import { motion } from 'framer-motion'
+import { Typewriter } from 'react-simple-typewriter'
 
 const containerVariants = {
     hidden: { opacity: 0, x: -100 },
@@ -41,17 +42,31 @@ const Hero = () => {
                         animate="visible"
                         variants={containerVariants}
                         className='flex flex-col items-center lg:items-start mt-10'>
+
                         <motion.h2
                             variants={childVariants}
-                            className='pb-2 text-4xl tracking-tighter lg:text-8xl'>Akshay S</motion.h2>
+                            className='pb-2 text-5xl tracking-tighter lg:text-8xl'>Akshay S</motion.h2>
+
                         <motion.span
                             variants={childVariants}
-                            className='bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent'>Full Stack Developer</motion.span>
+                            className='bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-5xl tracking-tight text-transparent'>
+                            <Typewriter
+                                words={['Frontend Developer', 'Backend Developer', 'Data Analyst']}
+                                loop={0}
+                                cursor
+                                cursorStyle='_'
+                                typeSpeed={70}
+                                deleteSpeed={50}
+                                delaySpeed={1000}
+                            />
+                        </motion.span>
+
                         <motion.p
                             variants={childVariants}
                             className='my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter'>
                             {HERO_CONTENT}
                         </motion.p>
+
                         <motion.a
                             variants={childVariants}
                             href="Akshay S Resume.pdf" target='_blank' rel='noopener noreferrer' download className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10'>Download Resume</motion.a>
@@ -62,4 +77,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;
