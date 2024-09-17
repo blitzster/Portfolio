@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     year: "2021 - 2023",
     role: "Order to Cash",
     company: "Alchemy Techsol",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `Managed end-to-end order processing, ensuring timely and accurate order fulfillment. Generated and reviewed invoices, addressing discrepancies to maintain financial accuracy. Coordinated lease terminations, including notification, documentation, and final settlements. Provided exceptional customer service, achieving a customer satisfaction rating of 85%. Ensured compliance with lease agreements and regulatory requirements during termination processes.`,
 
   },
 
@@ -38,7 +38,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
     title: "Blogging Platform",
