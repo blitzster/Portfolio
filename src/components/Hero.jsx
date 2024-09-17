@@ -51,7 +51,7 @@ const Hero = () => {
                             variants={childVariants}
                             className='bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-5xl tracking-tight text-transparent'>
                             <Typewriter
-                                words={['Frontend Developer', 'Backend Developer', 'Data Analyst']}
+                                words={['Frontend Developer', 'Backend Developer', 'FullStack Developer', 'Data Analyst']}
                                 loop={0}
                                 cursor
                                 cursorStyle='_'
@@ -69,7 +69,7 @@ const Hero = () => {
 
                         <motion.a
                             variants={childVariants}
-                            href="Akshay S Resume.pdf" target='_blank' rel='noopener noreferrer' download className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10'>Download Resume</motion.a>
+                            href="Akshay S Resume.pdf" target='_blank' rel='noopener noreferrer' download className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10'>Download CV</motion.a>
                     </motion.div>
                 </div>
             </div>

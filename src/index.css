@@ -15,8 +15,13 @@
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
+}
+
+.sliding-wrapper {
+  width: 100%;
+  overflow: hidden;
 }
 
 .sliding-track {
@@ -27,4 +32,10 @@
 
 .sliding-track:hover {
   animation-play-state: paused;
+}
+
+.slide-item {
+  padding: 20px;
+  background-color: lightgray;
+  margin-right: 10px;
 }

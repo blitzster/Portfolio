@@ -32,6 +32,12 @@ function Projects() {
                                 <span className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium
                                 text-stone-300" key={index}>{tech}</span>
                             ))}
+                            <a
+                                href={project.githubLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="mt-4 inline-block rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+                            >Github</a>
                         </motion.div>
                     </div>
                 ))}
